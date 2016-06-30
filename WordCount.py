@@ -1,4 +1,5 @@
 
+#Author: Nicolas Lopez
 
 from pyspark import SparkContext as sc
 
