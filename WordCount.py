@@ -7,6 +7,10 @@ Short program that takes in a list of words, breaks up the list and distribute i
 Then the program counts and returns the number of unique words in the list
 
 The function that does most of the work is the 'reduceByKey' pyspark function
+
+Example:  input_list = ['run','sit','dog','cat','run','dog','cat','sit','run','fun']
+Will return: 5  (there are 4 unique words in this list)
+
 """
 
 def countUniqueWords(word_list,nodes):
